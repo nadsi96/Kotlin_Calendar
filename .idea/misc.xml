@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/drawable/bg_btn.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/drawable/bg_dialog.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/drawable/bg_divide_date.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/drawable/bg_line_light_blue.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/drawable/bg_line_lightgray.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/drawable/bg_oval_light_blue.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/drawable/bg_popup.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/drawable/dialog_background.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/drawable/ic_android_black_24dp.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/drawable/ic_baseline_restore_from_trash_24.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/drawable/ic_launcher_background.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/drawable/img_alarm.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/drawable/img_all_schedeule.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/drawable/img_edit.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/drawable/img_exit.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/drawable/img_forward_slash.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/drawable/img_left_arrow.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/drawable/img_left_arrow_2.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/drawable/img_plus.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/drawable/img_right_arrow.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/drawable/img_schedule.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/drawable/img_slash.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/drawable/img_x.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/drawable/rec_left.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/drawable/triangle_left_bottom.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/drawable/triangle_left_top.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/drawable/triangle_right_bottom.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/layout-v26/layout_day.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/layout/activity_calendar.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/layout/activity_check_schedule.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/layout/activity_check_schedule2.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/layout/activity_daily_schedule.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/layout/activity_new_schedule.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/layout/activity_whole_schedule.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/layout/btn_layout_schedulelist.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/layout/btn_layout_schedulelist2.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/layout/btn_schedule.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/layout/btn_scheduleList.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/layout/cal.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/layout/dialog_daily_schedule_list.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/layout/dialog_date_spinner.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/layout/dialog_time_spinner.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/layout/item_daily_schedule.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/layout/item_list_daily_schedule.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/layout/item_list_schedule.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/layout/item_list_whole_schedule.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/layout/item_spinner.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/layout/layout_calendar.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/layout/layout_day.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/layout/popup_for_spinner.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Na/AndroidStudioProjects/calendar/app/src/main/res/layout/time_spinner_dialog.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Na/AppData/Local/Android/Sdk/platforms/android-30/data/res/layout/simple_spinner_dropdown_item.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Na/AppData/Local/Android/Sdk/platforms/android-30/data/res/layout/simple_spinner_item.xml" value="0.36614583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

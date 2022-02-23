@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="calendar_day_top_height">30dp</dimen>
+    <dimen name="calendar_day_top_font">18dp</dimen>
+    <dimen name="calendar_day_height">100dp</dimen>
+    <dimen name="calendar_day_font">14dp</dimen>
+    <dimen name="calendar_day_content_font">12dp</dimen>
+</resources>

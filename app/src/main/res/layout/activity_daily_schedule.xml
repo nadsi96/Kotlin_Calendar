@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".activity.ActivityDailySchedule">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="4"
+            android:gravity="bottom"
+            android:text="2021년 08월 27일 금요일"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <ImageButton
+            android:id="@+id/btn_newSchedule"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:background="@color/black"
+            android:padding="10dp"
+            android:src="@drawable/img_plus" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:src="@color/light_gray" />
+
+    <ListView
+        android:id="@+id/lv_scheduleList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

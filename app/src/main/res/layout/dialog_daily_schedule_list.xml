@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_background"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_dailyScheduleListdate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:paddingBottom="10dp"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            tools:text="2021.09.06" />
+
+        <TextView
+            android:id="@+id/tv_dailyScheduleListday"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignBaseline="@id/tv_dailyScheduleListdate"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/tv_dailyScheduleListdate"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            tools:text="월"
+
+            />
+
+        <ImageButton
+            android:id="@+id/btn_close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="20dp"
+            android:background="#1C1C1C"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/img_exit" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginHorizontal="10dp"
+        android:src="@color/divideLine" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_weight="5">
+
+        <ListView
+            android:id="@+id/lv_scheduleList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/item_list_daily_schedule" />
+
+        <TextView
+            android:id="@+id/tv_textNoSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="기록된 일정이 없습니다."
+            android:textColor="@color/light_gray"
+            android:textSize="20dp"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="5dp"
+        android:src="@color/divideLine" />
+
+    <ImageButton
+        android:id="@+id/btn_newSchedule"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/bg_btn"
+        android:backgroundTint="#1C1C1C"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_plus" />
+</LinearLayout>

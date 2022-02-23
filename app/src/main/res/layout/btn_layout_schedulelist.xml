@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="60dp">
+
+    <FrameLayout
+        android:id="@+id/btnFrame_pre"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/triangle_left_top"
+
+            android:text="이후 일정"
+            android:padding="3dp"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="지난 일정"
+            android:gravity="right|bottom"
+            android:padding="7dp"
+            android:textSize="20dp"
+            android:textColor="@color/light_gray"
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/btnFrame_post"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/triangle_left_bottom"
+            android:text="이후 일정"
+            android:padding="7dp"
+            android:gravity="right"
+            android:textColor="@color/light_gray"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="지난 일정"
+            android:textColor="@color/black"
+            android:gravity="left|bottom"
+            android:padding="3dp"
+            android:textSize="12dp"
+            />
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".activity.Activity_Check_Schedule">
+
+    <LinearLayout
+        android:id="@+id/layout_btns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="right"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/btn_modify"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_btn"
+            android:backgroundTint="@color/black"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/img_edit"
+
+            />
+
+        <ImageButton
+            android:id="@+id/btn_delete"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/bg_btn"
+            android:backgroundTint="@color/black"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/img_trash"
+            app:tint="@color/white" />
+
+
+        <!--<Button
+            android:id="@+id/btn_delete"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/dark_gray"
+            android:text="삭제"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/btn_modify"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/purple_700"
+            android:text="수정"
+            android:textSize="30dp" />-->
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:src="@color/purple_700" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/layout_btns">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tv_year"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:inputType="none"
+                    android:textColor="@color/white"
+                    android:textSize="40dp"
+                    tools:text="2021" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:gravity="bottom"
+                    android:paddingBottom="10dp"
+                    android:text="."
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+
+                <TextView
+
+                    android:id="@+id/tv_month"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:inputType="none"
+                    android:textColor="@color/white"
+                    android:textSize="40dp"
+                    tools:text="08" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:gravity="bottom"
+                    android:paddingBottom="10dp"
+                    android:text="."
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/tv_date"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:inputType="none"
+                    android:textColor="@color/white"
+                    android:textSize="40dp"
+                    tools:text="27" />
+
+                <TextView
+                    android:id="@+id/tv_day"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal|bottom"
+                    android:paddingBottom="20dp"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    tools:text="금요일" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginVertical="5dp"
+                android:src="@color/light_gray" />
+
+            <RelativeLayout
+                android:id="@+id/layout_scheduleTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp">
+
+                <TextView
+                    android:id="@+id/tv_scheduleAmPm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="bottom"
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    tools:text="오후" />
+
+                <TextView
+                    android:id="@+id/tv_scheduleHour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/tv_scheduleAmPm"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@id/tv_scheduleAmPm"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    tools:text="04" />
+
+                <TextView
+                    android:id="@+id/tv_textHour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/tv_scheduleAmPm"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/tv_scheduleHour"
+                    android:text="시"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/tv_scheduleMin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/tv_scheduleAmPm"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@id/tv_textHour"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    tools:text="30" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/tv_scheduleAmPm"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/tv_scheduleMin"
+                    android:text="분"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginVertical="5dp"
+                android:src="@color/light_gray" />
+
+            <TextView
+                android:id="@+id/tv_scheduleTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:textSize="30dp"
+                tools:text="타이틀" />
+
+            <TextView
+                android:id="@+id/tv_scheduleContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_line_lightgray"
+                android:padding="20dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:textSize="18dp"
+                tools:text="내용내용" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginVertical="20dp"
+                android:src="@color/purple_700" />
+
+
+            <!-- 알람 -->
+            <LinearLayout
+                android:id="@+id/layout_alarm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="알람"
+                    android:textColor="@color/white"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginVertical="5dp"
+                    android:src="@color/light_gray" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_alarmYear"
+                        android:layout_width="wrap_content"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center"
+                        android:textColor="@color/light_gray"
+                        android:textSize="30dp"
+                        tools:text="2021" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="70dp"
+                        android:gravity="bottom"
+                        android:paddingBottom="10dp"
+                        android:text=" . "
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/tv_alarmMonth"
+                        android:layout_width="wrap_content"
+                        android:layout_height="70dp"
+                        android:gravity="center"
+                        android:textColor="@color/light_gray"
+                        android:textSize="30dp"
+                        tools:text="09" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="70dp"
+                        android:gravity="bottom"
+                        android:paddingBottom="10dp"
+                        android:text=" . "
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/tv_alarmDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="70dp"
+                        android:gravity="center"
+                        android:textColor="@color/light_gray"
+                        android:textSize="30dp"
+                        tools:text="07" />
+
+                    <TextView
+                        android:id="@+id/tv_alarmDay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_horizontal|bottom"
+                        android:paddingBottom="20dp"
+                        android:textColor="@color/light_gray"
+                        android:textSize="15dp"
+                        tools:text="화요일" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginVertical="5dp"
+                    android:src="@color/light_gray" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_alarm_ampm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:text="오후 "
+                        android:textColor="@color/light_gray"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/tv_alarmHour"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@id/tv_alarm_ampm"
+                        android:layout_marginLeft="20dp"
+                        android:layout_toRightOf="@id/tv_alarm_ampm"
+                        android:gravity="center_vertical"
+                        android:text="04"
+                        android:textColor="@color/light_gray"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/tv_textAlarmHour"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@id/tv_alarm_ampm"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/tv_alarmHour"
+                        android:text="시"
+                        android:textColor="@color/light_gray"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/tv_alarmMin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@id/tv_alarm_ampm"
+                        android:layout_marginLeft="20dp"
+                        android:layout_toRightOf="@id/tv_textAlarmHour"
+                        android:textColor="@color/light_gray"
+                        android:textSize="20dp"
+                        tools:text="30" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@id/tv_alarm_ampm"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/tv_alarmMin"
+                        android:text="분"
+                        android:textColor="@color/light_gray"
+                        android:textSize="15dp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

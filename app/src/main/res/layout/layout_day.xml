@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_daySelect"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:background="@drawable/bg_line_lightgray"
+    android:orientation="vertical"
+    tools:layout_height="110dp"
+    tools:layout_width="match_parent">
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="40dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:textColor="@color/light_gray"
+        android:textStyle="bold"
+        app:autoSizeMaxTextSize="16dp"
+        app:autoSizeMinTextSize="12dp"
+        app:autoSizeTextType="uniform"
+        tools:background="@drawable/bg_oval_light_blue"
+        tools:text="31"
+        tools:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_schedule1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:autoSizeMinTextSize="8dp"
+        android:autoSizeTextType="uniform"
+        android:background="@color/light_orange"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:visibility="invisible"
+        tools:text="내용내용내용"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_schedule2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_weight="1"
+        android:autoSizeMinTextSize="8dp"
+        android:autoSizeTextType="uniform"
+        android:background="@color/light_yellow"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:visibility="invisible"
+        tools:text="내용내용"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_extra"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="right"
+        android:layout_margin="3dp"
+        android:layout_weight="1"
+        android:autoSizeMinTextSize="8dp"
+        android:autoSizeTextType="uniform"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:visibility="invisible"
+        tools:text="+ 2.."
+        tools:visibility="visible"
+        android:paddingHorizontal="5dp"/>
+
+</LinearLayout>
